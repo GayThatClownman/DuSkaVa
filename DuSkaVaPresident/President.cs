@@ -13,17 +13,34 @@ namespace DuSkaVaPresident
 
         public President(string n)
         {
+            Random generator = new Random();
+
+            // int[] priorityArray = 
+            // {
+                
+            // };
+
+            // environmentPriority = generator.Next(0, 100);
+            // defensePriority = generator.Next(0, 100);
+            // healthcarePriority = generator.Next(0, 100);
+
+            n = Console.ReadLine();
+            this.name = n;
 
         }
 
         public void Present()
         {
+            System.Console.WriteLine("Name: " + this.name);
 
         }
 
-        // public bool PassLegislation(int e, int d, int h, int bribe)
-        // {
-        //     return ;
-        // }
+        public bool PassLegislation(int e, int d, int h, int bribe)
+        {
+
+            bool result = true;
+
+            return result;    
+        }
     }
 }
